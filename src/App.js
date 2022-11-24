@@ -2,7 +2,10 @@ import './App.css';
 import Day2 from './day2';
 function App() {
   return (
-    <Day2/>
+    <div>
+      <Day2/>
+      <Day2/>
+    </div>
   );
 }
 
