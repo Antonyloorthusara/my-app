@@ -5,8 +5,9 @@ import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name=" sara"
 root.render(
   <React.StrictMode>
-    <App />
+    <App name={name} />
   </React.StrictMode>
 );

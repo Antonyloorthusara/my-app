@@ -1,11 +1,10 @@
-import './App.css';
-import Day2 from './day2';
-function App() {
+import React from 'react'
+
+export default function App({name}) {
+  const element=<h1>my name is{name}</h1>
   return (
     <div>
-      <Day2/>
+      {element}
     </div>
-  );
+  )
 }
-
-export default App;
